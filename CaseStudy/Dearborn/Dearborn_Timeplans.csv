@@ -1,0 +1,74 @@
+[Timeplans]
+Timing Plan Settings
+RECORDNAME,INTID,DATA
+Control Type,3,3
+Cycle Length,3,60.0
+Lock Timings,3,0
+Referenced To,3,0
+Reference Phase,3,2
+Offset,3,56.0
+Master,3,0
+Yield,3,2
+Node 0,3,3
+Node 1,3,0
+Control Type,6,3
+Cycle Length,6,60.0
+Lock Timings,6,0
+Referenced To,6,0
+Reference Phase,6,206
+Offset,6,52.0
+Master,6,0
+Yield,6,2
+Node 0,6,6
+Node 1,6,0
+Control Type,9,3
+Cycle Length,9,60.0
+Lock Timings,9,0
+Referenced To,9,0
+Reference Phase,9,104
+Offset,9,54.0
+Master,9,0
+Yield,9,2
+Node 0,9,9
+Node 1,9,0
+Control Type,12,3
+Cycle Length,12,60.0
+Lock Timings,12,0
+Referenced To,12,0
+Reference Phase,12,206
+Offset,12,41.0
+Master,12,0
+Yield,12,2
+Node 0,12,12
+Node 1,12,0
+Control Type,16,3
+Cycle Length,16,80.0
+Lock Timings,16,0
+Referenced To,16,0
+Reference Phase,16,2
+Offset,16,0.0
+Master,16,0
+Yield,16,2
+Node 0,16,16
+Node 1,16,0
+Control Type,17,1
+Cycle Length,17,115.0
+Lock Timings,17,0
+Referenced To,17,0
+Reference Phase,17,206
+Offset,17,0.0
+Master,17,0
+Yield,17,0
+Node 0,17,17
+Node 1,17,24
+Node 2,17,0
+Control Type,25,0
+Cycle Length,25,45.0
+Lock Timings,25,0
+Referenced To,25,0
+Reference Phase,25,6
+Offset,25,0.0
+Master,25,0
+Yield,25,0
+Node 0,25,25
+Node 1,25,0

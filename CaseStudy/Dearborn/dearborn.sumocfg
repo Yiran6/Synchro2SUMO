@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-13 20:16:41 by Eclipse SUMO GUI Version 1.9.2
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Dearborn_AM_signal.net.xml"/>
+        <additional-files value="signal_additional.add3.xml" />
+        <route-files value="route.rou.xml"/>
+    </input>
+
+    
+    <time>
+        <begin value="0"/>
+        <end value="1600"/>
+        <step-length value="0.1"/>
+    </time>
+</configuration>

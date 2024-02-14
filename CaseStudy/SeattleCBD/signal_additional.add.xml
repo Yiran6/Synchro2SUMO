@@ -1,0 +1,14 @@
+<additional>
+	<tlLogic id="2053744124" type="static" programID="0" offset="25">
+		<phase name="(D1)" duration="55.5" maxDur="55.5" minDur="7.0" next="2" state="gGGgrrrrGGgGrGr"/>
+		<phase name="(D2)" duration="25.5" maxDur="25.5" minDur="7.0" next="4" state="rrrrgGGgrrrrGrG"/>
+		<phase name="(D1)-(D2)-Y" duration="3.5" next="3" state="yyyyrrrryyyyryr"/>
+		<phase name="(D1)-(D2)-R" duration="1.0" next="1" state="rrrrrrrrrrrrrrr"/>
+		<phase name="(D2)-(D1)-Y" duration="3.5" next="5" state="rrrryyyyrrrryry"/>
+		<phase name="(D2)-(D1)-R" duration="1.0" next="0" state="rrrrrrrrrrrrrrr"/>
+		<param key="linkMaxDur:1" value="55.5"/>
+		<param key="linkMinDur:1" value="7.0"/>
+		<param key="linkMaxDur:5" value="25.5"/>
+		<param key="linkMinDur:5" value="7.0"/>
+	</tlLogic>
+</additional>

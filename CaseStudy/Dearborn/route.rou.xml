@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-13 20:21:59 by Eclipse SUMO netedit Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Fu\Documents\Projects\sumoproj\Dearborn\Dearborn_AM_signal.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Fu\Documents\Projects\sumoproj\Dearborn\Dearborn_AM_signal.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\Fu\Documents\Projects\sumoproj\Dearborn\route.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="f1" begin="0" end="100" number="50" from="1_3" to="17_2"/>
+    <flow id="f2" begin="0" end="100" number="50" from="7_6" to="6_9"/>
+    <flow id="f3" begin="0" end="100" number="50" from="9_6" to="6_8"/>
+    <flow id="f4" begin="0" end="100" number="40" from="12_9" to="6_3"/>
+    <flow id="f5" begin="0" end="100" number="20" from="3_6" to="6_7"/>
+
+</routes>

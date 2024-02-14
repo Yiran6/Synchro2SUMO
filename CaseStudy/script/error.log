@@ -1,0 +1,61 @@
+synchro node 417 not found in mapping table: {'D2': {'permitted': ['SBL', 'EBL'], 'protected': ['SBR']}, 'D3': {'protected': ['EBT', 'WBT'], 'permitted': ['WBR']}}
+synchro node 143 does not have the same number of inbounds with SUMO 4163983439
+match traffic bound failed for 88999330#3
+synchro node 146 map inbounds with SUMO 53146386 failed
+match traffic bound failed for -371427803#18
+synchro node 102 map inbounds with SUMO 53155734 failed
+match traffic bound failed for -371427803#14
+synchro node 103 map inbounds with SUMO 53091442 failed
+match traffic bound failed for gneE481
+synchro node 105 map inbounds with SUMO gneJ234 failed
+synchro node 106 does not have the same number of inbounds with SUMO 2476726095
+synchro node 107 does not have the same number of inbounds with SUMO 53036746
+match traffic bound failed for -206877624#2
+synchro node 214 map inbounds with SUMO 53144742 failed
+53114276: Duplicate edges matches to the same movement 68665998#3
+synchro node 177 map inbounds with SUMO 53114276 failed
+match traffic bound failed for 6509620#4.13
+synchro node 151 map inbounds with SUMO 53189615 failed
+match traffic bound failed for 428294122#3
+synchro node 148 map inbounds with SUMO 53155393 failed
+match traffic bound failed for 560116317#1
+synchro node 273 map inbounds with SUMO 53187904 failed
+synchro node 366 does not have the same number of inbounds with SUMO 53128667
+synchro node 358 does not have the same number of inbounds with SUMO 53184113
+match traffic bound failed for 22927950#2
+synchro node 409 map inbounds with SUMO 53168043 failed
+synchro node 403 does not have the same number of inbounds with SUMO gneJ112
+synchro node 402 does not have the same number of inbounds with SUMO 53221383
+synchro node 391 does not have the same number of inbounds with SUMO gneJ363
+synchro node 383 does not have the same number of inbounds with SUMO 53247237
+synchro node 442 does not have the same number of inbounds with SUMO 53142970
+30279697: Duplicate edges matches to the same movement 56178982
+synchro node 446 map inbounds with SUMO 30279697 failed
+synchro node 447 does not have the same number of inbounds with SUMO 53045786
+synchro node 539 does not have the same number of inbounds with SUMO 53088999
+match traffic bound failed for 465971495
+synchro node 509 map inbounds with SUMO 53142972 failed
+match traffic bound failed for -338863385#2
+synchro node 550 map inbounds with SUMO 53147432 failed
+synchro node 557 does not have the same number of inbounds with SUMO 53070503
+synchro node 559 does not have the same number of inbounds with SUMO 53070500
+synchro node 532 does not have the same number of inbounds with SUMO gneJ464
+53209848: Duplicate edges matches to the same movement 158612543
+synchro node 596 map inbounds with SUMO 53209848 failed
+match traffic bound failed for 428087113#0
+synchro node 580 map inbounds with SUMO 53147435 failed
+synchro node 574 does not have the same number of inbounds with SUMO 53194068
+synchro node 585 does not have the same number of inbounds with SUMO 53072277
+match traffic bound failed for 460423539#0
+synchro node 568 map inbounds with SUMO 53168922 failed
+match traffic bound failed for -65588116#1
+synchro node 569 map inbounds with SUMO 53168924 failed
+match traffic bound failed for -460423541#1
+synchro node 579 map inbounds with SUMO 53200831 failed
+synchro node 616 map inbounds with SUMO 30079057 failed
+synchro node 294 does not have the same number of inbounds with SUMO 1487927529
+match traffic bound failed for -428244933
+synchro node 197 map inbounds with SUMO 53189262 failed
+gneJ371: Duplicate edges matches to the same movement 663675735
+synchro node 298 map inbounds with SUMO gneJ371 failed
+synchro node 200 does not have the same number of inbounds with SUMO 53144754
