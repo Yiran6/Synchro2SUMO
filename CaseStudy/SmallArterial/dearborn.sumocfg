@@ -6,7 +6,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="Dearborn_AM_signal.net.xml"/>
+        <net-file value="test_arterial.net.xml"/>
         <additional-files value="signal_additional.add3.xml" />
         <route-files value="route.rou.xml"/>
     </input>

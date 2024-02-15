@@ -17,17 +17,17 @@ if __name__ == '__main__':
     #check the ids
     parse_errors = []
 	# input here
-    '''
-    base_path = r"C:/Users/Fu/Documents/Projects/sumoproj/Dearborn/"
+   
+    base_path = r"../SmallArterial/"
     transfer_file = base_path+"transfer_sigid.csv"
-    synchro_csv_file = base_path+"Dearborn_AM.csv"
-    sumo_xml_file = base_path+"Dearborn_AM_signal.net.xml"
+    synchro_csv_file = base_path+"test_arterial.csv"
+    sumo_xml_file = base_path+"test_arterial.net.xml"
     '''
     base_path = r"C:/Users/Fu/Documents/Projects/sumoproj/SeattleCBD/"
     transfer_file = base_path+"transfer_sigid.csv"
     synchro_csv_file = base_path+"Seattle_CBD_Synchro.csv"
     sumo_xml_file = base_path+"Seattle_CBD_sumo.net.xml"
-    
+    '''
     
     output_file = base_path+'signal_additional2.add.xml'
     

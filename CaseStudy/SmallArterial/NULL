@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-02-14 13:34:07 by Eclipse SUMO GUI Version 1.14.1
+<!-- generated on 02/14/24 23:20:37 by Eclipse SUMO GUI Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\Yiran\Documents\Synchro2SUMO\CaseStudy\Dearborn\Dearborn_AM_signal.net.xml"/>
-        <route-files value="C:\Users\Yiran\Documents\Synchro2SUMO\CaseStudy\Dearborn\route.rou.xml"/>
-        <additional-files value="C:\Users\Yiran\Documents\Synchro2SUMO\CaseStudy\Dearborn\signal_additional.add3.xml"/>
+        <net-file value="C:\Users\29700\Downloads\Synchro2SUMO\CaseStudy\Dearborn\Dearborn_AM_signal.net.xml"/>
+        <route-files value="C:\Users\29700\Downloads\Synchro2SUMO\CaseStudy\Dearborn\route.rou.xml"/>
+        <additional-files value="C:\Users\29700\Downloads\Synchro2SUMO\CaseStudy\Dearborn\signal_additional.add3.xml"/>
     </input>
 
     <time>
@@ -14,6 +14,10 @@
         <end value="1600"/>
         <step-length value="0.1"/>
     </time>
+
+    <gui_only>
+        <tracker-interval value="0.1"/>
+    </gui_only>
 
 </configuration>
 -->

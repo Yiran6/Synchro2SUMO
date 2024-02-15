@@ -1,0 +1,869 @@
+[Network]
+Network Settings
+RECORDNAME,DATA
+UTDFVERSION,8
+Metric,0
+yellowTime,3.0
+allRedTime,1.5
+Walk,7.0
+DontWalk,11.0
+HV,0.02
+PHF,0.92
+DefWidth,12
+DefFlow,1900
+vehLength,25
+heavyvehlength,45
+criticalgap,4.5
+followuptime,2.5
+stopthresholdspeed,5.0
+criticalmergegap,3.7
+growth,1.00
+PedSpeed,3.5
+LostTimeAdjust,0.0
+ScenarioDate,01/19/2021
+ScenarioTime,6:17 pm
+
+[Nodes]
+Node Data
+INTID,TYPE,X,Y,Z,DESCRIPTION,CBD,Inside Radius,Outside Radius,Roundabout Lanes,Circle Speed
+1,1,726,-3221,0,,,,,,
+2,1,4045,-3213,0,,,,,,
+3,0,933,-3222,0,,,,,,
+4,1,934,-3043,0,,,,,,
+5,1,932,-3413,0,,,,,,
+6,0,1263,-3223,0,,,,,,
+7,1,1268,-2958,0,,,,,,
+8,1,1257,-3510,0,,,,,,
+9,0,1588,-3231,0,,,,,,
+10,1,1590,-2952,0,,,,,,
+11,1,1579,-3506,0,,,,,,
+12,0,1910,-3225,0,,,,,,
+13,1,1906,-2892,0,,,,,,
+14,1,1913,-3515,0,,,,,,
+15,1,2154,-2703,0,,,,,,
+16,0,2150,-3220,0,,,,,,
+17,2,2817,-3236,0,,,,,,
+24,2,2692,-3229,0,,,,,,
+
+[Links]
+Link Data
+RECORDNAME,INTID,NB,SB,EB,WB
+Up ID,1,,,,3
+Lanes,1,,,,2
+Name,1,,,,
+Distance,1,,,,207
+Speed,1,,,,25
+Time,1,,,,5.6
+Grade,1,,,,0
+Median,1,,,,12
+Offset,1,,,,0
+TWLTL,1,,,,0
+Crosswalk Width,1,,,,16
+Mandatory Distance,1,,,,200
+Mandatory Distance2,1,,,,1101
+Positioning Distance,1,,,,734
+Positioning Distance2,1,,,,1468
+Curve Pt X,1,,,,
+Curve Pt Y,1,,,,
+Curve Pt Z,1,,,,
+Link Is Hidden,1,,,,false
+Street Name Is Hidden,1,,,,false
+Up ID,2,,,17,
+Lanes,2,,,2,
+Name,2,,,,
+Distance,2,,,1228,
+Speed,2,,,25,
+Time,2,,,33.5,
+Grade,2,,,0,
+Median,2,,,0,
+Offset,2,,,0,
+TWLTL,2,,,0,
+Crosswalk Width,2,,,16,
+Mandatory Distance,2,,,200,
+Mandatory Distance2,2,,,1101,
+Positioning Distance,2,,,734,
+Positioning Distance2,2,,,1468,
+Curve Pt X,2,,,,
+Curve Pt Y,2,,,,
+Curve Pt Z,2,,,,
+Link Is Hidden,2,,,false,
+Street Name Is Hidden,2,,,false,
+Up ID,3,5,4,1,6
+Lanes,3,2,2,3,2
+Name,3,,6th Ave S,,
+Distance,3,191,179,207,330
+Speed,3,25,25,25,25
+Time,3,5.2,4.9,5.6,9.0
+Grade,3,0,0,0,0
+Median,3,12,12,12,12
+Offset,3,0,0,0,0
+TWLTL,3,0,0,0,0
+Crosswalk Width,3,16,16,16,16
+Mandatory Distance,3,250,250,250,250
+Mandatory Distance2,3,1101,1101,1101,1101
+Positioning Distance,3,734,734,734,734
+Positioning Distance2,3,1468,1468,1468,1468
+Curve Pt X,3,,,,
+Curve Pt Y,3,,,,
+Curve Pt Z,3,,,,
+Link Is Hidden,3,false,false,false,false
+Street Name Is Hidden,3,false,false,false,false
+Up ID,4,3,,,
+Lanes,4,1,,,
+Name,4,6th Ave S,,,
+Distance,4,179,,,
+Speed,4,25,,,
+Time,4,4.9,,,
+Grade,4,0,,,
+Median,4,0,,,
+Offset,4,0,,,
+TWLTL,4,0,,,
+Crosswalk Width,4,16,,,
+Mandatory Distance,4,200,,,
+Mandatory Distance2,4,1101,,,
+Positioning Distance,4,734,,,
+Positioning Distance2,4,1468,,,
+Curve Pt X,4,,,,
+Curve Pt Y,4,,,,
+Curve Pt Z,4,,,,
+Link Is Hidden,4,false,,,
+Street Name Is Hidden,4,false,,,
+Up ID,5,,3,,
+Lanes,5,,0,,
+Name,5,,,,
+Distance,5,,191,,
+Speed,5,,25,,
+Time,5,,5.2,,
+Grade,5,,0,,
+Median,5,,0,,
+Offset,5,,0,,
+TWLTL,5,,0,,
+Crosswalk Width,5,,16,,
+Mandatory Distance,5,,200,,
+Mandatory Distance2,5,,1101,,
+Positioning Distance,5,,734,,
+Positioning Distance2,5,,1468,,
+Curve Pt X,5,,,,
+Curve Pt Y,5,,,,
+Curve Pt Z,5,,,,
+Link Is Hidden,5,,false,,
+Street Name Is Hidden,5,,false,,
+Up ID,6,8,7,3,9
+Lanes,6,0,1,3,2
+Name,6,Maynard Ave S,Maynard Ave S,,
+Distance,6,287,265,330,325
+Speed,6,25,25,25,25
+Time,6,7.8,7.2,9.0,8.9
+Grade,6,0,0,0,0
+Median,6,0,0,12,12
+Offset,6,0,0,0,0
+TWLTL,6,0,0,0,0
+Crosswalk Width,6,16,16,16,16
+Mandatory Distance,6,250,250,250,250
+Mandatory Distance2,6,1101,1101,1101,1101
+Positioning Distance,6,734,734,734,734
+Positioning Distance2,6,1468,1468,1468,1468
+Curve Pt X,6,,,,
+Curve Pt Y,6,,,,
+Curve Pt Z,6,,,,
+Link Is Hidden,6,false,false,false,false
+Street Name Is Hidden,6,false,false,false,false
+Up ID,7,6,,,
+Lanes,7,1,,,
+Name,7,Maynard Ave S,,,
+Distance,7,265,,,
+Speed,7,25,,,
+Time,7,7.2,,,
+Grade,7,0,,,
+Median,7,0,,,
+Offset,7,0,,,
+TWLTL,7,0,,,
+Crosswalk Width,7,16,,,
+Mandatory Distance,7,200,,,
+Mandatory Distance2,7,1101,,,
+Positioning Distance,7,734,,,
+Positioning Distance2,7,1468,,,
+Curve Pt X,7,,,,
+Curve Pt Y,7,,,,
+Curve Pt Z,7,,,,
+Link Is Hidden,7,false,,,
+Street Name Is Hidden,7,false,,,
+Up ID,8,,6,,
+Lanes,8,,*2,,
+Name,8,,Maynard Ave S,,
+Distance,8,,287,,
+Speed,8,,25,,
+Time,8,,7.8,,
+Grade,8,,0,,
+Median,8,,0,,
+Offset,8,,0,,
+TWLTL,8,,0,,
+Crosswalk Width,8,,16,,
+Mandatory Distance,8,,200,,
+Mandatory Distance2,8,,1101,,
+Positioning Distance,8,,734,,
+Positioning Distance2,8,,1468,,
+Curve Pt X,8,,,,
+Curve Pt Y,8,,,,
+Curve Pt Z,8,,,,
+Link Is Hidden,8,,false,,
+Street Name Is Hidden,8,,false,,
+Up ID,9,11,10,6,12
+Lanes,9,2,0,2,3
+Name,9,7th Ave S,7th Ave S,,
+Distance,9,275,279,325,322
+Speed,9,25,25,25,25
+Time,9,7.5,7.6,8.9,8.8
+Grade,9,0,0,0,0
+Median,9,0,0,0,0
+Offset,9,0,0,0,0
+TWLTL,9,0,0,0,0
+Crosswalk Width,9,16,16,16,16
+Mandatory Distance,9,250,250,250,250
+Mandatory Distance2,9,1101,1101,1101,1101
+Positioning Distance,9,734,734,734,734
+Positioning Distance2,9,1468,1468,1468,1468
+Curve Pt X,9,,,,
+Curve Pt Y,9,,,,
+Curve Pt Z,9,,,,
+Link Is Hidden,9,false,false,false,false
+Street Name Is Hidden,9,false,false,false,false
+Up ID,10,9,,,
+Lanes,10,*2,,,
+Name,10,7th Ave S,,,
+Distance,10,279,,,
+Speed,10,25,,,
+Time,10,7.6,,,
+Grade,10,0,,,
+Median,10,0,,,
+Offset,10,0,,,
+TWLTL,10,0,,,
+Crosswalk Width,10,16,,,
+Mandatory Distance,10,200,,,
+Mandatory Distance2,10,1101,,,
+Positioning Distance,10,734,,,
+Positioning Distance2,10,1468,,,
+Curve Pt X,10,,,,
+Curve Pt Y,10,,,,
+Curve Pt Z,10,,,,
+Link Is Hidden,10,false,,,
+Street Name Is Hidden,10,false,,,
+Up ID,11,,9,,
+Lanes,11,,0,,
+Name,11,,7th Ave S,,
+Distance,11,,275,,
+Speed,11,,25,,
+Time,11,,7.5,,
+Grade,11,,0,,
+Median,11,,0,,
+Offset,11,,0,,
+TWLTL,11,,0,,
+Crosswalk Width,11,,16,,
+Mandatory Distance,11,,200,,
+Mandatory Distance2,11,,1101,,
+Positioning Distance,11,,734,,
+Positioning Distance2,11,,1468,,
+Curve Pt X,11,,,,
+Curve Pt Y,11,,,,
+Curve Pt Z,11,,,,
+Link Is Hidden,11,,false,,
+Street Name Is Hidden,11,,false,,
+Up ID,12,14,13,9,16
+Lanes,12,1,1,2,2
+Name,12,8th Ave S,8th Ave S,,
+Distance,12,290,333,322,240
+Speed,12,25,25,25,25
+Time,12,7.9,9.1,8.8,6.5
+Grade,12,0,0,0,0
+Median,12,12,12,0,0
+Offset,12,0,0,0,0
+TWLTL,12,0,0,0,0
+Crosswalk Width,12,16,16,16,16
+Mandatory Distance,12,250,250,250,250
+Mandatory Distance2,12,1101,1101,1101,1101
+Positioning Distance,12,734,734,734,734
+Positioning Distance2,12,1468,1468,1468,1468
+Curve Pt X,12,,,,
+Curve Pt Y,12,,,,
+Curve Pt Z,12,,,,
+Link Is Hidden,12,false,false,false,false
+Street Name Is Hidden,12,false,false,false,false
+Up ID,13,12,,,
+Lanes,13,0,,,
+Name,13,8th Ave S,,,
+Distance,13,333,,,
+Speed,13,25,,,
+Time,13,9.1,,,
+Grade,13,0,,,
+Median,13,0,,,
+Offset,13,0,,,
+TWLTL,13,0,,,
+Crosswalk Width,13,16,,,
+Mandatory Distance,13,200,,,
+Mandatory Distance2,13,1101,,,
+Positioning Distance,13,734,,,
+Positioning Distance2,13,1468,,,
+Curve Pt X,13,,,,
+Curve Pt Y,13,,,,
+Curve Pt Z,13,,,,
+Link Is Hidden,13,false,,,
+Street Name Is Hidden,13,false,,,
+Up ID,14,,12,,
+Lanes,14,,1,,
+Name,14,,8th Ave S,,
+Distance,14,,290,,
+Speed,14,,25,,
+Time,14,,7.9,,
+Grade,14,,0,,
+Median,14,,0,,
+Offset,14,,0,,
+TWLTL,14,,0,,
+Crosswalk Width,14,,16,,
+Mandatory Distance,14,,200,,
+Mandatory Distance2,14,,1101,,
+Positioning Distance,14,,734,,
+Positioning Distance2,14,,1468,,
+Curve Pt X,14,,,,
+Curve Pt Y,14,,,,
+Curve Pt Z,14,,,,
+Link Is Hidden,14,,false,,
+Street Name Is Hidden,14,,false,,
+Up ID,15,16,,,
+Lanes,15,0,,,
+Name,15,I5 SB Off,,,
+Distance,15,517,,,
+Speed,15,25,,,
+Time,15,14.1,,,
+Grade,15,0,,,
+Median,15,0,,,
+Offset,15,0,,,
+TWLTL,15,0,,,
+Crosswalk Width,15,16,,,
+Mandatory Distance,15,200,,,
+Mandatory Distance2,15,1101,,,
+Positioning Distance,15,734,,,
+Positioning Distance2,15,1468,,,
+Curve Pt X,15,,,,
+Curve Pt Y,15,,,,
+Curve Pt Z,15,,,,
+Link Is Hidden,15,false,,,
+Street Name Is Hidden,15,false,,,
+Up ID,16,,15,12,24
+Lanes,16,,2,2,2
+Name,16,,I5 SB Off,,
+Distance,16,,517,240,542
+Speed,16,,35,25,25
+Time,16,,10.1,6.5,14.8
+Grade,16,,0,0,0
+Median,16,,12,0,0
+Offset,16,,0,0,0
+TWLTL,16,,0,0,0
+Crosswalk Width,16,,16,16,16
+Mandatory Distance,16,,333,333,333
+Mandatory Distance2,16,,1539,1101,1101
+Positioning Distance,16,,1026,734,734
+Positioning Distance2,16,,2052,1468,1468
+Curve Pt X,16,,,,
+Curve Pt Y,16,,,,
+Curve Pt Z,16,,,,
+Link Is Hidden,16,,false,false,false
+Street Name Is Hidden,16,,false,false,false
+Up ID,17,,,24,2
+Lanes,17,,,2,2
+Name,17,,,,
+Distance,17,,,125,1228
+Speed,17,,,25,25
+Time,17,,,3.4,33.5
+Grade,17,,,0,0
+Median,17,,,0,0
+Offset,17,,,0,0
+TWLTL,17,,,0,0
+Crosswalk Width,17,,,16,16
+Mandatory Distance,17,,,100,100
+Mandatory Distance2,17,,,1101,1101
+Positioning Distance,17,,,734,734
+Positioning Distance2,17,,,1468,1468
+Curve Pt X,17,,,,
+Curve Pt Y,17,,,,
+Curve Pt Z,17,,,,
+Link Is Hidden,17,,,false,false
+Street Name Is Hidden,17,,,false,false
+Up ID,24,,,16,17
+Lanes,24,,,2,2
+Name,24,,,,
+Distance,24,,,542,125
+Speed,24,,,25,25
+Time,24,,,14.8,3.4
+Grade,24,,,0,0
+Median,24,,,0,0
+Offset,24,,,0,0
+TWLTL,24,,,0,0
+Crosswalk Width,24,,,16,16
+Mandatory Distance,24,,,100,100
+Mandatory Distance2,24,,,1101,1101
+Positioning Distance,24,,,734,734
+Positioning Distance2,24,,,1468,1468
+Curve Pt X,24,,,,
+Curve Pt Y,24,,,,
+Curve Pt Z,24,,,,
+Link Is Hidden,24,,,false,false
+Street Name Is Hidden,24,,,false,false
+
+[Lanes]
+Lane Group Data
+RECORDNAME,INTID,NBL,NBT,NBR,SBL,SBT,SBR,EBL,EBT,EBR,WBL,WBT,WBR,PED,HOLD
+Up Node,3,5,5,5,4,4,4,1,1,1,6,6,6,,
+Dest Node,3,1,4,6,6,5,1,4,6,5,5,1,4,,
+Lanes,3,1,1,0,1,0,1,1,2,0,0,2,0,,
+Shared,3,0,2,,0,0,,0,0,,0,2,,,
+Width,3,12,12,12,12,12,12,12,12,12,12,12,12,,
+Storage,3,,,,,,,65,,150,150,,150,,
+Taper,3,,,,,,,25,,25,25,,25,,
+StLanes,3,,,,,,,1,,0,0,,0,,
+Grade,3,,,,,,,,,,,,,,
+Speed,3,,25,,,25,,,25,,,25,,,
+Phase1,3,,4,,,,,,2,,,2,,,
+PermPhase1,3,4,,,4,,4,2,,,,,,,
+LostTime,3,4.5,4.5,4,4.5,4,4.5,4.5,4.5,4,4,4.5,4,,
+Lost Time Adjust,3,0,0,0,0,0,0,0,0,0,0,0,0,,
+IdealFlow,3,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,,
+SatFlow,3,1656,1665,0,1612,0,1442,1671,3343,0,0,3128,0,,
+SatFlowPerm,3,1545,1665,0,1098,0,1330,777,3343,0,0,3128,0,,
+Allow RTOR,3,1,1,1,1,1,1,1,1,1,1,1,1,,
+SatFlowRTOR,3,0,35,0,0,0,98,0,0,0,0,24,0,,
+Volume,3,5,105,35,45,0,60,50,125,0,0,420,45,,
+Peds,3,71,0,17,17,0,71,21,0,18,18,0,21,,
+Bicycles,3,0,0,0,0,0,0,0,0,0,0,0,0,,
+PHF,3,0.88,0.88,0.88,0.61,0.61,0.61,0.96,0.96,0.96,0.89,0.89,0.89,,
+Growth,3,100,100,100,100,100,100,100,100,100,100,100,100,,
+HeavyVehicles,3,9,9,9,12,12,12,8,8,8,13,13,13,,
+BusStops,3,0,0,0,0,0,0,0,0,0,0,0,0,,
+Midblock,3,,0,,,0,,,0,,,0,,,
+Distance,3,,191,,,179,,,207,,,330,,,
+TravelTime,3,,5.2,,,4.9,,,5.6,,,9.0,,,
+Right Channeled,3,,,0,,,0,,,0,,,0,,
+Alignment,3,0,0,1,0,0,1,0,0,1,0,0,1,,
+Enter Blocked,3,0,0,0,0,0,0,0,0,0,0,0,0,,
+HeadwayFact,3,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,,
+Turning Speed,3,15,60,9,15,60,9,15,60,9,15,60,9,,
+FirstDetect,3,20,100,,20,,20,20,100,,,100,,,
+LastDetect,3,0,0,,0,,0,0,0,,,0,,,
+DetectPhase1,3,4,4,,4,,4,2,2,,,2,,,
+DetectPhase2,3,0,0,,0,,0,0,0,,,0,,,
+DetectPhase3,3,0,0,,0,,0,0,0,,,0,,,
+DetectPhase4,3,0,0,,0,,0,0,0,,,0,,,
+SwitchPhase,3,0,0,,0,,0,0,0,,,0,,,
+numDetects,3,1,2,,1,,1,1,2,,,2,,,
+DetectPos1,3,0,0,,0,,0,0,0,,,0,,,
+DetectSize1,3,20,6,,20,,20,20,6,,,6,,,
+DetectType1,3,3,3,,3,,3,3,3,,,3,,,
+DetectExtend1,3,0,0,,0,,0,0,0,,,0,,,
+DetectQueue1,3,0,0,,0,,0,0,0,,,0,,,
+DetectDelay1,3,0,0,,0,,0,0,0,,,0,,,
+DetectPos2,3,,94,,,,,,94,,,94,,,
+DetectSize2,3,,6,,,,,,6,,,6,,,
+DetectType2,3,,3,,,,,,3,,,3,,,
+DetectExtend2,3,,0,,,,,,0,,,0,,,
+Exit Lanes,3,,0,,,0,,,0,,,0,,,
+CBD,3,,0,,,,,,,,,,,,
+Lane Group Flow,3,6,159,0,74,0,98,52,130,0,0,523,0,,
+Up Node,6,8,8,8,7,7,7,3,3,3,9,9,9,,
+Dest Node,6,3,7,9,9,8,3,7,9,8,8,3,7,,
+Lanes,6,0,0,0,0,1,0,1,2,0,1,1,0,,
+Shared,6,0,0,,0,3,,0,2,,0,2,,,
+Width,6,12,12,12,12,12,12,12,12,12,12,12,12,,
+Storage,6,,,,,,,75,,,,,,,
+Taper,6,,,,,,,25,,,,,,,
+StLanes,6,,,,,,,1,,,,,,,
+Grade,6,,,,,,,,,,,,,,
+Speed,6,,25,,,25,,,25,,,25,,,
+Phase1,6,,,,,4,,5,2,,1,6,,,
+PermPhase1,6,,,,4,,,6,,,2,,,,
+LostTime,6,4,4,4,4.5,4.5,4,3.5,4.5,4,3.5,4.5,4,,
+Lost Time Adjust,6,0,0,0,0,0,0,0,0,0,0,0,0,,
+IdealFlow,6,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,,
+SatFlow,6,0,0,0,0,1653,0,1703,3276,0,1641,1663,0,,
+SatFlowPerm,6,0,0,0,0,1637,0,423,3276,0,1078,1663,0,,
+Allow RTOR,6,1,1,1,1,1,1,1,1,1,1,1,1,,
+SatFlowRTOR,6,0,0,0,0,16,0,0,45,0,0,21,0,,
+Volume,6,0,0,0,25,60,15,25,135,40,205,450,105,,
+Peds,6,0,0,0,41,0,8,12,0,5,5,0,12,,
+Bicycles,6,0,0,0,0,0,0,0,0,0,0,0,0,,
+PHF,6,0.92,0.92,0.92,0.79,0.79,0.79,0.88,0.88,0.88,0.96,0.96,0.96,,
+Growth,6,100,100,100,100,100,100,100,100,100,100,100,100,,
+HeavyVehicles,6,2,2,2,11,11,11,6,6,6,10,10,10,,
+BusStops,6,0,0,0,0,0,0,0,0,0,0,0,0,,
+Midblock,6,,0,,,0,,,0,,,0,,,
+Distance,6,,287,,,265,,,330,,,325,,,
+TravelTime,6,,7.8,,,7.2,,,9.0,,,8.9,,,
+Right Channeled,6,,,0,,,0,,,0,,,0,,
+Alignment,6,0,0,1,0,0,1,0,0,1,0,0,1,,
+Enter Blocked,6,0,0,0,0,0,0,0,0,0,0,0,0,,
+HeadwayFact,6,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,,
+Turning Speed,6,15,60,9,15,60,9,15,60,9,15,60,9,,
+FirstDetect,6,,,,20,100,,20,100,,20,100,,,
+LastDetect,6,,,,0,0,,0,0,,0,0,,,
+DetectPhase1,6,,,,4,4,,5,2,,1,6,,,
+DetectPhase2,6,,,,0,0,,0,0,,0,0,,,
+DetectPhase3,6,,,,0,0,,0,0,,0,0,,,
+DetectPhase4,6,,,,0,0,,0,0,,0,0,,,
+SwitchPhase,6,,,,0,0,,0,0,,0,0,,,
+numDetects,6,,,,1,2,,1,2,,1,2,,,
+DetectPos1,6,,,,0,0,,0,0,,0,0,,,
+DetectSize1,6,,,,20,6,,20,6,,20,6,,,
+DetectType1,6,,,,3,3,,3,3,,3,3,,,
+DetectExtend1,6,,,,0,0,,0,0,,0,0,,,
+DetectQueue1,6,,,,0,0,,0,0,,0,0,,,
+DetectDelay1,6,,,,0,0,,0,0,,0,0,,,
+DetectPos2,6,,,,,94,,,94,,,94,,,
+DetectSize2,6,,,,,6,,,6,,,6,,,
+DetectType2,6,,,,,3,,,3,,,3,,,
+DetectExtend2,6,,,,,0,,,0,,,0,,,
+Exit Lanes,6,,0,,,0,,,0,,,0,,,
+CBD,6,,0,,,,,,,,,,,,
+Lane Group Flow,6,0,0,0,0,127,0,28,198,0,214,578,0,,
+Up Node,9,11,11,11,10,10,10,6,6,6,12,12,12,,
+Dest Node,9,6,10,12,12,11,6,10,12,11,11,6,10,,
+Lanes,9,0,1,1,0,0,0,0,2,0,0,2,1,,
+Shared,9,0,1,,0,0,,0,0,,0,0,,,
+Width,9,12,12,12,12,12,12,12,12,12,12,12,12,,
+Storage,9,,,,,,,,,,,,110,,
+Taper,9,,,,,,,,,,,,25,,
+StLanes,9,,,,,,,,,,,,1,,
+Grade,9,,,,,,,,,,,,,,
+Speed,9,,25,,,25,,,25,,,25,,,
+Phase1,9,,2,3,,,,,1,,,3,,,
+Phase2,9,,,5,,,,,,,,4,,,
+PermPhase1,9,2,,,,,,,,,,,4,,
+LostTime,9,4.5,4.5,4.5,4,4,4,4,4.5,4,4,4.5,4.5,,
+Lost Time Adjust,9,0,0,0,0,0,0,0,0,0,0,0,0,,
+IdealFlow,9,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,,
+SatFlow,9,0,1686,1455,0,0,0,0,3282,0,0,3312,1482,,
+SatFlowPerm,9,0,1683,1455,0,0,0,0,3282,0,0,3312,1423,,
+Allow RTOR,9,1,1,1,1,1,1,1,1,1,1,1,1,,
+SatFlowRTOR,9,0,0,465,0,0,0,0,0,0,0,0,109,,
+Volume,9,75,170,400,0,0,0,0,160,0,0,690,80,,
+Peds,9,6,0,41,41,0,6,22,0,6,9,0,22,,
+Bicycles,9,0,0,0,0,0,0,0,0,0,0,0,0,,
+PHF,9,0.86,0.86,0.86,0.92,0.92,0.92,0.77,0.77,0.77,0.94,0.94,0.94,,
+Growth,9,100,100,100,100,100,100,100,100,100,100,100,100,,
+HeavyVehicles,9,11,11,11,2,2,2,10,10,10,9,9,9,,
+BusStops,9,0,0,0,0,0,0,0,0,0,0,0,0,,
+Midblock,9,,0,,,0,,,0,,,0,,,
+Distance,9,,275,,,279,,,325,,,322,,,
+TravelTime,9,,7.5,,,7.6,,,8.9,,,8.8,,,
+Right Channeled,9,,,0,,,0,,,0,,,0,,
+Alignment,9,0,0,1,0,0,1,0,0,1,0,0,1,,
+Enter Blocked,9,0,0,0,0,0,0,0,0,0,0,0,0,,
+HeadwayFact,9,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,,
+Turning Speed,9,15,60,9,15,60,9,15,60,9,15,60,9,,
+FirstDetect,9,20,100,20,,,,,100,,,100,20,,
+LastDetect,9,0,0,0,,,,,0,,,0,0,,
+DetectPhase1,9,2,2,3,,,,,1,,,3,4,,
+DetectPhase2,9,0,0,5,,,,,0,,,4,0,,
+DetectPhase3,9,0,0,0,,,,,0,,,0,0,,
+DetectPhase4,9,0,0,0,,,,,0,,,0,0,,
+SwitchPhase,9,0,0,0,,,,,0,,,0,0,,
+numDetects,9,1,2,1,,,,,2,,,2,1,,
+DetectPos1,9,0,0,0,,,,,0,,,0,0,,
+DetectSize1,9,20,6,20,,,,,6,,,6,20,,
+DetectType1,9,3,3,3,,,,,3,,,3,3,,
+DetectExtend1,9,0,0,0,,,,,0,,,0,0,,
+DetectQueue1,9,0,0,0,,,,,0,,,0,0,,
+DetectDelay1,9,0,0,0,,,,,0,,,0,0,,
+DetectPos2,9,,94,,,,,,94,,,94,,,
+DetectSize2,9,,6,,,,,,6,,,6,,,
+DetectType2,9,,3,,,,,,3,,,3,,,
+DetectExtend2,9,,0,,,,,,0,,,0,,,
+Exit Lanes,9,,0,,,0,,,0,,,0,,,
+CBD,9,,0,,,,,,,,,,,,
+Lane Group Flow,9,0,285,465,0,0,0,0,208,0,0,734,85,,
+Up Node,12,14,14,14,13,13,13,9,9,9,16,16,16,,
+Dest Node,12,9,13,16,16,14,9,13,16,14,14,9,13,,
+Lanes,12,1,0,0,1,0,0,0,2,0,0,2,0,,
+Shared,12,0,0,,0,0,,0,2,,0,1,,,
+Width,12,12,12,12,12,12,12,12,12,12,12,12,12,,
+Storage,12,,,,,,,,,,,,,,
+Taper,12,,,,,,,,,,,,,,
+StLanes,12,,,,,,,,,,,,,,
+Grade,12,,,,,,,,,,,,,,
+Speed,12,,25,,,25,,,25,,,25,,,
+Phase1,12,,,,,,,,2,,,6,,,
+PermPhase1,12,8,,,4,,,,,,6,,,,
+LostTime,12,4.5,4,4,4.5,4,4,4,4.5,4,4.5,4.5,4,,
+Lost Time Adjust,12,0,0,0,0,0,0,0,0,0,0,0,0,,
+IdealFlow,12,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,1900,,
+SatFlow,12,1444,0,0,1641,0,0,0,3108,0,0,3406,0,,
+SatFlowPerm,12,1425,0,0,1637,0,0,0,3108,0,0,3242,0,,
+Allow RTOR,12,1,1,1,1,1,1,1,1,1,1,1,1,,
+SatFlowRTOR,12,0,109,0,0,109,0,0,2,0,0,0,0,,
+Volume,12,5,0,5,30,0,40,0,560,5,5,725,0,,
+Peds,12,14,0,3,3,0,14,20,0,7,7,0,20,,
+Bicycles,12,0,0,0,0,0,0,0,0,1,0,0,1,,
+PHF,12,0.50,0.50,0.50,0.65,0.65,0.65,0.87,0.87,0.87,0.97,0.97,0.97,,
+Growth,12,100,100,100,100,100,100,100,100,100,100,100,100,,
+HeavyVehicles,12,25,25,25,10,10,10,16,16,16,6,6,6,,
+BusStops,12,0,0,0,0,0,0,0,0,0,0,0,0,,
+Midblock,12,,0,,,0,,,0,,,0,,,
+Distance,12,,290,,,333,,,322,,,240,,,
+TravelTime,12,,7.9,,,9.1,,,8.8,,,6.5,,,
+Right Channeled,12,,,0,,,0,,,0,,,0,,
+Alignment,12,0,0,1,0,0,1,0,0,1,0,0,1,,
+Enter Blocked,12,0,0,0,0,0,0,0,0,0,0,0,0,,
+HeadwayFact,12,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,,
+Turning Speed,12,15,60,9,15,60,9,15,60,9,15,60,9,,
+FirstDetect,12,20,,,20,,,,100,,20,100,,,
+LastDetect,12,0,,,0,,,,0,,0,0,,,
+DetectPhase1,12,8,,,4,,,,2,,6,6,,,
+DetectPhase2,12,0,,,0,,,,0,,0,0,,,
+DetectPhase3,12,0,,,0,,,,0,,0,0,,,
+DetectPhase4,12,0,,,0,,,,0,,0,0,,,
+SwitchPhase,12,0,,,0,,,,0,,0,0,,,
+numDetects,12,1,,,1,,,,2,,1,2,,,
+DetectPos1,12,0,,,0,,,,0,,0,0,,,
+DetectSize1,12,20,,,20,,,,6,,20,6,,,
+DetectType1,12,3,,,3,,,,3,,3,3,,,
+DetectExtend1,12,0,,,0,,,,0,,0,0,,,
+DetectQueue1,12,0,,,0,,,,0,,0,0,,,
+DetectDelay1,12,0,,,0,,,,0,,0,0,,,
+DetectPos2,12,,,,,,,,94,,,94,,,
+DetectSize2,12,,,,,,,,6,,,6,,,
+DetectType2,12,,,,,,,,3,,,3,,,
+DetectExtend2,12,,,,,,,,0,,,0,,,
+Exit Lanes,12,,0,,,0,,,0,,,0,,,
+CBD,12,,0,,,,,,,,,,,,
+Lane Group Flow,12,10,10,0,46,62,0,0,650,0,0,752,0,,
+Up Node,16,,,,15,,15,12,12,,,24,24,,
+Dest Node,16,,,,24,,12,15,24,,,12,15,,
+Lanes,16,,,,1,,1,0,2,,,2,0,,
+Shared,16,,,,0,,,0,0,,,0,,,
+Width,16,,,,12,,12,12,12,,,12,12,,
+Storage,16,,,,,,,,,,,,,,
+Taper,16,,,,,,,,,,,,,,
+StLanes,16,,,,,,,,,,,,,,
+Grade,16,,,,,,,,,,,,,,
+Speed,16,,,,35,,,,25,,,25,,,
+Phase1,16,,,,4,,,,2,,,2,,8,7
+PermPhase1,16,,,,,,4,,,,,,,,
+LostTime,16,,,,5.5,,5.5,4,5,,,5,4,,
+Lost Time Adjust,16,,,,0,,0,0,0,,,0,0,,
+IdealFlow,16,,,,1900,,1900,1900,1900,,,1900,1900,,
+SatFlow,16,,,,1752,,1568,0,3085,,,3282,0,,
+SatFlowPerm,16,,,,1752,,1568,0,3085,,,3282,0,,
+Allow RTOR,16,,,,1,,1,1,1,,,1,1,,
+SatFlowRTOR,16,,,,0,,79,0,0,,,0,0,,
+Volume,16,,,,125,,195,0,600,,,560,0,,
+Peds,16,,,,0,,0,22,0,,,0,22,,
+Bicycles,16,,,,0,,0,0,0,,,0,0,,
+PHF,16,,,,0.95,,0.95,0.97,0.97,,,0.94,0.94,,
+Growth,16,,,,100,,100,100,100,,,100,100,,
+HeavyVehicles,16,,,,3,,3,17,17,,,10,10,,
+BusStops,16,,,,0,,0,0,0,,,0,0,,
+Midblock,16,,,,0,,,,0,,,0,,,
+Distance,16,,,,517,,,,240,,,542,,,
+TravelTime,16,,,,10.1,,,,6.5,,,14.8,,,
+Right Channeled,16,,,,,,0,,0,,,,0,,
+Alignment,16,,,,0,,1,0,0,,,0,1,,
+Enter Blocked,16,,,,0,,0,0,0,,,0,0,,
+HeadwayFact,16,,,,1.00,,1.00,1.00,1.00,,,1.00,1.00,,
+Turning Speed,16,,,,15,,9,15,60,,,60,9,,
+FirstDetect,16,,,,20,,20,,100,,,100,,,
+LastDetect,16,,,,0,,0,,0,,,0,,,
+DetectPhase1,16,,,,4,,4,,2,,,2,,,
+DetectPhase2,16,,,,0,,0,,0,,,0,,,
+DetectPhase3,16,,,,0,,0,,0,,,0,,,
+DetectPhase4,16,,,,0,,0,,0,,,0,,,
+SwitchPhase,16,,,,0,,0,,0,,,0,,,
+numDetects,16,,,,1,,1,,2,,,2,,,
+DetectPos1,16,,,,0,,0,,0,,,0,,,
+DetectSize1,16,,,,20,,20,,6,,,6,,,
+DetectType1,16,,,,3,,3,,3,,,3,,,
+DetectExtend1,16,,,,0,,0,,0,,,0,,,
+DetectQueue1,16,,,,0,,0,,0,,,0,,,
+DetectDelay1,16,,,,0,,0,,0,,,0,,,
+DetectPos2,16,,,,,,,,94,,,94,,,
+DetectSize2,16,,,,,,,,6,,,6,,,
+DetectType2,16,,,,,,,,3,,,3,,,
+DetectExtend2,16,,,,,,,,0,,,0,,,
+Exit Lanes,16,,,,0,,,,0,,,0,,,
+CBD,16,,,,,,,,0,,,,,,
+Lane Group Flow,16,,,,132,,205,0,619,,,596,0,,
+
+[Timeplans]
+Timing Plan Settings
+RECORDNAME,INTID,DATA
+Control Type,3,3
+Cycle Length,3,60.0
+Lock Timings,3,0
+Referenced To,3,0
+Reference Phase,3,2
+Offset,3,56.0
+Master,3,0
+Yield,3,2
+Node 0,3,3
+Node 1,3,0
+Control Type,6,3
+Cycle Length,6,60.0
+Lock Timings,6,0
+Referenced To,6,0
+Reference Phase,6,206
+Offset,6,52.0
+Master,6,0
+Yield,6,2
+Node 0,6,6
+Node 1,6,0
+Control Type,9,3
+Cycle Length,9,60.0
+Lock Timings,9,0
+Referenced To,9,0
+Reference Phase,9,104
+Offset,9,54.0
+Master,9,0
+Yield,9,2
+Node 0,9,9
+Node 1,9,0
+Control Type,12,3
+Cycle Length,12,60.0
+Lock Timings,12,0
+Referenced To,12,0
+Reference Phase,12,206
+Offset,12,41.0
+Master,12,0
+Yield,12,2
+Node 0,12,12
+Node 1,12,0
+Control Type,16,3
+Cycle Length,16,80.0
+Lock Timings,16,0
+Referenced To,16,0
+Reference Phase,16,2
+Offset,16,0.0
+Master,16,0
+Yield,16,2
+Node 0,16,16
+Node 1,16,0
+
+[Phases]
+Phasing Data
+RECORDNAME,INTID,D1,D2,D3,D4,D5,D6,D7,D8,D11,D12,D15,D16
+BRP,3,111,112,211,212,121,122,221,222,411,412,421,422
+MinGreen,3,,7,,7,,,,,,,,
+MaxGreen,3,,25.5,,25.5,,,,,,,,
+VehExt,3,,0.2,,2,,,,,,,,
+TimeBeforeReduce,3,,0,,0,,,,,,,,
+TimeToReduce,3,,0,,0,,,,,,,,
+MinGap,3,,0.2,,2,,,,,,,,
+Yellow,3,,3.5,,3.5,,,,,,,,
+AllRed,3,,1,,1,,,,,,,,
+Recall,3,,3,,2,,,,,,,,
+Walk,3,,7,,7,,,,,,,,
+DontWalk,3,,8,,12,,,,,,,,
+PedCalls,3,,0,,0,,,,,,,,
+MinSplit,3,,21,,25,,,,,,,,
+DualEntry,3,,1,,1,,,,,,,,
+InhibitMax,3,,0,,0,,,,,,,,
+Start,3,,56,,26,,,,,,,,
+End,3,,26,,56,,,,,,,,
+Yield,3,,21.5,,51.5,,,,,,,,
+Yield170,3,,13.5,,39.5,,,,,,,,
+LocalStart,3,,0,,30,,,,,,,,
+LocalYield,3,,25.5,,55.5,,,,,,,,
+LocalYield170,3,,17.5,,43.5,,,,,,,,
+ActGreen,3,,32,,19,,,,,,,,
+BRP,6,111,112,211,212,121,122,221,222,411,412,421,422
+MinGreen,6,5,7,,7,5,7,,,,,,
+MaxGreen,6,8.5,17.5,,21.5,6.5,19.5,,,,,,
+VehExt,6,3,0.2,,2,2,0.2,,,,,,
+TimeBeforeReduce,6,0,0,,0,0,0,,,,,,
+TimeToReduce,6,0,0,,0,0,0,,,,,,
+MinGap,6,3,0.2,,2,2,0.2,,,,,,
+Yellow,6,3.5,3.5,,3.5,3.5,3.5,,,,,,
+AllRed,6,0,1,,1,0,1,,,,,,
+Recall,6,0,3,,2,0,3,,,,,,
+Walk,6,,7,,7,,7,,,,,,
+DontWalk,6,,8,,13,,5,,,,,,
+PedCalls,6,,0,,0,,0,,,,,,
+MinSplit,6,10,21,,26,10,18,,,,,,
+DualEntry,6,0,1,,0,0,1,,,,,,
+InhibitMax,6,0,0,,0,0,0,,,,,,
+Start,6,40,52,,14,40,50,,,,,,
+End,6,52,14,,40,50,14,,,,,,
+Yield,6,48.5,9.5,,35.5,46.5,9.5,,,,,,
+Yield170,6,48.5,1.5,,22.5,46.5,4.5,,,,,,
+LocalStart,6,48,0,,22,48,58,,,,,,
+LocalYield,6,56.5,17.5,,43.5,54.5,17.5,,,,,,
+LocalYield170,6,56.5,9.5,,30.5,54.5,12.5,,,,,,
+ActGreen,6,8.1,19.4,,20,2.2,25.3,,,,,,
+BRP,9,111,211,212,121,231,,,,411,412,421,422
+MinGreen,9,7,7,5,7,7,,,,,,,
+MaxGreen,9,21.5,19.5,5.5,21.5,29.5,,,,,,,
+VehExt,9,3,3,3,3,3,,,,,,,
+TimeBeforeReduce,9,0,0,0,0,0,,,,,,,
+TimeToReduce,9,0,0,0,0,0,,,,,,,
+MinGap,9,3,3,3,3,3,,,,,,,
+Yellow,9,3.5,3.5,3.5,3.5,3.5,,,,,,,
+AllRed,9,1,1,1,1,1,,,,,,,
+Recall,9,3,3,0,3,0,,,,,,,
+Walk,9,7,7,,7,,,,,,,,
+DontWalk,9,13,12,,7,,,,,,,,
+PedCalls,9,0,0,,0,,,,,,,,
+MinSplit,9,26,23.5,9.5,20,13,,,,,,,
+DualEntry,9,1,0,0,1,1,,,,,,,
+InhibitMax,9,0,0,0,0,0,,,,,,,
+Start,9,54,20,44,54,20,,,,,,,
+End,9,20,44,54,20,54,,,,,,,
+Yield,9,15.5,39.5,49.5,15.5,49.5,,,,,,,
+Yield170,9,2.5,27.5,49.5,8.5,49.5,,,,,,,
+LocalStart,9,0,26,50,0,26,,,,,,,
+LocalYield,9,21.5,45.5,55.5,21.5,55.5,,,,,,,
+LocalYield170,9,8.5,33.5,55.5,14.5,55.5,,,,,,,
+ActGreen,9,21.5,19.5,5.5,21.5,29.5,,,,,,,
+BRP,12,111,112,211,212,121,122,221,222,411,412,421,422
+MinGreen,12,,7,,7,,7,,5,,,,
+MaxGreen,12,,28.5,,22.5,,28.5,,18,,,,
+VehExt,12,,3,,3,,3,,3,,,,
+TimeBeforeReduce,12,,0,,0,,0,,0,,,,
+TimeToReduce,12,,0,,0,,0,,0,,,,
+MinGap,12,,3,,3,,3,,3,,,,
+Yellow,12,,3,,3,,3,,3,,,,
+AllRed,12,,1.5,,1.5,,1.5,,1.5,,,,
+Recall,12,,3,,0,,3,,0,,,,
+Walk,12,,7,,7,,7,,7,,,,
+DontWalk,12,,9,,15,,7,,11,,,,
+PedCalls,12,,0,,0,,0,,0,,,,
+MinSplit,12,,22,,27,,20,,22.5,,,,
+DualEntry,12,,1,,0,,1,,1,,,,
+InhibitMax,12,,0,,0,,0,,1,,,,
+Start,12,,41,,14,,41,,14,,,,
+End,12,,14,,41,,14,,41,,,,
+Yield,12,,9.5,,36.5,,9.5,,36.5,,,,
+Yield170,12,,0.5,,36.5,,2.5,,36.5,,,,
+LocalStart,12,,0,,33,,0,,33,,,,
+LocalYield,12,,28.5,,55.5,,28.5,,55.5,,,,
+LocalYield170,12,,19.5,,55.5,,21.5,,55.5,,,,
+ActGreen,12,,47.5,,3.5,,47.5,,3.5,,,,
+BRP,16,111,112,211,212,113,114,222,221,411,412,421,422
+MinGreen,16,,7,,7,,,7,7,,,,
+MaxGreen,16,,26,,43.5,,,9.5,31,,,,
+VehExt,16,,2,,2,,,2,0.2,,,,
+TimeBeforeReduce,16,,0,,0,,,0,0,,,,
+TimeToReduce,16,,0,,0,,,0,0,,,,
+MinGap,16,,2,,2,,,2,0.2,,,,
+Yellow,16,,3,,3.5,,,3.5,3,,,,
+AllRed,16,,2,,2,,,2,0,,,,
+Recall,16,,3,,0,,,0,0,,,,
+Walk,16,,15,,,,,,7,,,,
+DontWalk,16,,9,,,,,,24,,,,
+PedCalls,16,,0,,,,,,0,,,,
+MinSplit,16,,30,,14,,,14,34,,,,
+DualEntry,16,,0,,1,,,1,0,,,,
+InhibitMax,16,,0,,0,,,0,0,,,,
+Start,16,,0,,31,,,65,31,,,,
+End,16,,31,,0,,,0,65,,,,
+Yield,16,,26,,74.5,,,74.5,62,,,,
+Yield170,16,,17,,74.5,,,74.5,62,,,,
+LocalStart,16,,0,,31,,,65,31,,,,
+LocalYield,16,,26,,74.5,,,74.5,62,,,,
+LocalYield170,16,,17,,74.5,,,74.5,62,,,,
+ActGreen,16,,57.6,,11.9,,,11.9,0,,,,
+

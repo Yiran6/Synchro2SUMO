@@ -1,5 +1,5 @@
 <additional>
-	<tlLogic id="3" type="actuated" programID="0" offset="56">
+	<tlLogic id="3" type="actuated" programID="1" offset="56">
 		<param key="detector-gap" value="2.0"/>
 		<param key="file" value="NULL"/>
 		<param key="freq" value="300"/>
@@ -18,7 +18,7 @@
 		<param key="linkMaxDur:6" value="25.5"/>
 		<param key="linkMinDur:6" value="7.0"/>
 	</tlLogic>
-	<tlLogic id="6" type="actuated" programID="0" offset="52">
+	<tlLogic id="6" type="actuated" programID="1" offset="52">
 		<param key="detector-gap" value="2.0"/>
 		<param key="file" value="NULL"/>
 		<param key="freq" value="300"/>
@@ -46,7 +46,7 @@
 		<param key="linkMaxDur:8" value="19.5"/>
 		<param key="linkMinDur:8" value="7.0"/>
 	</tlLogic>
-	<tlLogic id="9" type="actuated" programID="0" offset="54">
+	<tlLogic id="9" type="actuated" programID="1" offset="54">
 		<param key="detector-gap" value="2.0"/>
 		<param key="file" value="NULL"/>
 		<param key="freq" value="300"/>
@@ -70,30 +70,7 @@
 		<param key="linkMaxDur:5" value="21.5"/>
 		<param key="linkMinDur:5" value="7.0"/>
 	</tlLogic>
-	<tlLogic id="17" type="actuated" programID="0" offset="0">
-		<param key="detector-gap" value="2.0"/>
-		<param key="file" value="NULL"/>
-		<param key="freq" value="300"/>
-		<param key="max-gap" value="3.0"/>
-		<param key="passing-time" value="2.0"/>
-		<param key="show-detectors" value="false"/>
-		<param key="vTypes" value=""/>
-		<phase name="(D2,D6)" duration="7.0" maxDur="20.5" minDur="7.0" next="1" state="rrrGG"/>
-		<phase name="(D2,D5)" duration="5.0" maxDur="30.5" minDur="5.0" next="2" state="rrrGG"/>
-		<phase name="(D4)" duration="7.0" maxDur="15.0" minDur="7.0" next="4" state="rrrGG"/>
-		<phase name="(D9)" duration="7.0" maxDur="30.5" minDur="7.0" next="6" state="GGGrr"/>
-		<phase name="(D4)-(D9)-Y" duration="4.0" next="5" state="rrryy"/>
-		<phase name="(D4)-(D9)-R" duration="1.0" next="3" state="rrrrr"/>
-		<phase name="(D9)-(D2,D6)-Y" duration="3.5" next="7" state="yyyrr"/>
-		<phase name="(D9)-(D2,D6)-R" duration="1.0" next="0" state="rrrrr"/>
-		<param key="linkMaxDur:0" value="55.5"/>
-		<param key="linkMinDur:0" value="7.0"/>
-		<param key="linkMaxDur:1" value="15.0"/>
-		<param key="linkMinDur:1" value="7.0"/>
-		<param key="linkMaxDur:2" value="30.5"/>
-		<param key="linkMinDur:2" value="7.0"/>
-	</tlLogic>
-	<tlLogic id="12" type="actuated" programID="0" offset="41">
+	<tlLogic id="12" type="actuated" programID="1" offset="41">
 		<param key="detector-gap" value="2.0"/>
 		<param key="file" value="NULL"/>
 		<param key="freq" value="300"/>
@@ -112,7 +89,7 @@
 		<param key="linkMaxDur:2" value="28.5"/>
 		<param key="linkMinDur:2" value="7.0"/>
 	</tlLogic>
-	<tlLogic id="16" type="actuated" programID="0" offset="0">
+	<tlLogic id="16" type="actuated" programID="1" offset="0">
 		<param key="detector-gap" value="2.0"/>
 		<param key="file" value="NULL"/>
 		<param key="freq" value="300"/>
