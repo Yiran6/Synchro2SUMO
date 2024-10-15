@@ -21,5 +21,5 @@ The example modules / code can be found at: CaseStudy/script
 * test_main.py: This script serves as the primary entry point for this project. It integrates the core functionality, processes input data, and generates desired outputs.
 * synchro_parser.py: Parse the Synchro CSV file
 * sumo_xml_parser.py: Parse the SUMO XML file
-* synchro_sumo_id_mapping.py: A mapping table between Synchro & Sumo Node IDs
-* phase_mapping.py: Script to mapping signal phases from Synchro to SUMO
+* synchro_sumo_id_mapping.py: A mapping table between Synchro & Sumo Node IDs, from transfer_sigid.csv
+* phase_mapping.py: Script to mapping signal phases from Synchro to SUMO. 
