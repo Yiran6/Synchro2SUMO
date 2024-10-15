@@ -1,16 +1,18 @@
 # Citation
 If you use this code in your research or project, please cite our conference publication:
 
-Zhang, Y., Fu, M., & Ban, X. (2024, July). Integration Traffic Signal Control From Synchro to SUMO. In SUMO Conference Proceedings (Vol. 5, pp. 147-162).
+Zhang, Y., Fu, M., & Ban, X. (2024). **Integration Traffic Signal Control From Synchro to SUMO.** SUMO Conference Proceedings, 5, 147–162.
 
 ```bibtex
-@inproceedings{zhang2024integration,
-  title={Integration Traffic Signal Control From Synchro to SUMO},
-  author={Zhang, Yiran and Fu, Mingjian and Ban, Xuegang},
-  booktitle={SUMO Conference Proceedings},
-  volume={5},
-  pages={147--162},
-  year={2024}
+@article{Zhang_Fu_Ban_2024,
+  title = {Integration Traffic Signal Control From Synchro to SUMO},
+  volume = {5},
+  url = {https://www.tib-op.org/ojs/index.php/scp/article/view/1112},
+  journal = {SUMO Conference Proceedings},
+  author = {Zhang, Yiran and Fu, Mingjian and Ban, Xuegang},
+  year = {2024},
+  month = {Jul.},
+  pages = {147--162}
 }
 ```
 
